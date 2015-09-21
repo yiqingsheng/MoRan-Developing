@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MRLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor redColor];
+//    MRLoginViewController *loginVC = [[MRLoginViewController alloc] init];
+//    self.window.rootViewController = loginVC;
+//    [self.window makeKeyAndVisible];
     
     return YES;
 }
