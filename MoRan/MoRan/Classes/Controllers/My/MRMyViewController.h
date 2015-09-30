@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MRHeadImageViewController.h"
+#import "MRNickNameViewController.h"
 
-@interface MRMyViewController : UITableViewController
+@interface MRMyViewController : UITableViewController <MRNickNameViewControllerDelegate, MRHeadImageViewControllerDelegate>
+
+
+@property (weak, nonatomic) IBOutlet UILabel *nickNameLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *headImageView;
 
 @end
+

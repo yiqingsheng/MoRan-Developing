@@ -15,13 +15,16 @@
 		C931473C1BB3DD5D00497DB8 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C931473B1BB3DD5D00497DB8 /* BLMultipartForm.m */; settings = {ASSET_TAGS = (); }; };
 		C93147411BB3E1E800497DB8 /* MRSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147401BB3E1E800497DB8 /* MRSquareViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C93147441BB3E20D00497DB8 /* MRMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147431BB3E20D00497DB8 /* MRMyViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C93147461BB3E22800497DB8 /* Square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93147451BB3E22800497DB8 /* Square.storyboard */; settings = {ASSET_TAGS = (); }; };
-		C93147481BB3E23500497DB8 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93147471BB3E23500497DB8 /* My.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C93147461BB3E22800497DB8 /* MRSquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93147451BB3E22800497DB8 /* MRSquare.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C93B71121BBBD50200A34780 /* MRMy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93B71111BBBD50200A34780 /* MRMy.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C93B71151BBBD59F00A34780 /* MRHeadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B71141BBBD59F00A34780 /* MRHeadImageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C93B71181BBBD5B400A34780 /* MRNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B71171BBBD5B400A34780 /* MRNickNameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C93B711B1BBBD5C100A34780 /* MRHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B711A1BBBD5C100A34780 /* MRHomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C978D88B1BAEF51A00F5D903 /* MoRanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C978D88A1BAEF51A00F5D903 /* MoRanTests.m */; };
 		C978D8961BAEF51A00F5D903 /* MoRanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C978D8951BAEF51A00F5D903 /* MoRanUITests.m */; };
 		C978D8B91BAEF60200F5D903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C978D8A71BAEF60200F5D903 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		C978D8BA1BAEF60200F5D903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C978D8B01BAEF60200F5D903 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		C978D8BB1BAEF60200F5D903 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C978D8B21BAEF60200F5D903 /* LoginAndRegister.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C978D8BB1BAEF60200F5D903 /* MRLoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C978D8B21BAEF60200F5D903 /* MRLoginAndRegister.storyboard */; settings = {ASSET_TAGS = (); }; };
 		C978D8BC1BAEF60300F5D903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C978D8B51BAEF60200F5D903 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		C978D8BE1BAEF60300F5D903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C978D8B81BAEF60200F5D903 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		C983C9CC1BAF984B00C69EA8 /* MRRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C983C9CB1BAF984B00C69EA8 /* MRRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -62,8 +65,14 @@
 		C93147401BB3E1E800497DB8 /* MRSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRSquareViewController.m; path = Square/MRSquareViewController.m; sourceTree = "<group>"; };
 		C93147421BB3E20D00497DB8 /* MRMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRMyViewController.h; path = My/MRMyViewController.h; sourceTree = "<group>"; };
 		C93147431BB3E20D00497DB8 /* MRMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRMyViewController.m; path = My/MRMyViewController.m; sourceTree = "<group>"; };
-		C93147451BB3E22800497DB8 /* Square.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Square.storyboard; sourceTree = "<group>"; };
-		C93147471BB3E23500497DB8 /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		C93147451BB3E22800497DB8 /* MRSquare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRSquare.storyboard; sourceTree = "<group>"; };
+		C93B71111BBBD50200A34780 /* MRMy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRMy.storyboard; sourceTree = "<group>"; };
+		C93B71131BBBD59F00A34780 /* MRHeadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRHeadImageViewController.h; path = My/MRHeadImageViewController.h; sourceTree = "<group>"; };
+		C93B71141BBBD59F00A34780 /* MRHeadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRHeadImageViewController.m; path = My/MRHeadImageViewController.m; sourceTree = "<group>"; };
+		C93B71161BBBD5B400A34780 /* MRNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRNickNameViewController.h; path = My/MRNickNameViewController.h; sourceTree = "<group>"; };
+		C93B71171BBBD5B400A34780 /* MRNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRNickNameViewController.m; path = My/MRNickNameViewController.m; sourceTree = "<group>"; };
+		C93B71191BBBD5C100A34780 /* MRHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRHomePageViewController.h; path = My/MRHomePageViewController.h; sourceTree = "<group>"; };
+		C93B711A1BBBD5C100A34780 /* MRHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRHomePageViewController.m; path = My/MRHomePageViewController.m; sourceTree = "<group>"; };
 		C978D86D1BAEF51A00F5D903 /* MoRan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoRan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978D8861BAEF51A00F5D903 /* MoRanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoRanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978D88A1BAEF51A00F5D903 /* MoRanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoRanTests.m; sourceTree = "<group>"; };
@@ -74,7 +83,7 @@
 		C978D8A61BAEF60200F5D903 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C978D8A71BAEF60200F5D903 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C978D8B11BAEF60200F5D903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C978D8B31BAEF60200F5D903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		C978D8B31BAEF60200F5D903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MRLoginAndRegister.storyboard; sourceTree = "<group>"; };
 		C978D8B51BAEF60200F5D903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C978D8B71BAEF60200F5D903 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C978D8B81BAEF60200F5D903 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -132,6 +141,12 @@
 			children = (
 				C93147421BB3E20D00497DB8 /* MRMyViewController.h */,
 				C93147431BB3E20D00497DB8 /* MRMyViewController.m */,
+				C93B71131BBBD59F00A34780 /* MRHeadImageViewController.h */,
+				C93B71141BBBD59F00A34780 /* MRHeadImageViewController.m */,
+				C93B71161BBBD5B400A34780 /* MRNickNameViewController.h */,
+				C93B71171BBBD5B400A34780 /* MRNickNameViewController.m */,
+				C93B71191BBBD5C100A34780 /* MRHomePageViewController.h */,
+				C93B711A1BBBD5C100A34780 /* MRHomePageViewController.m */,
 			);
 			name = My;
 			sourceTree = "<group>";
@@ -275,10 +290,10 @@
 		C978D8AF1BAEF60200F5D903 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C93B71111BBBD50200A34780 /* MRMy.storyboard */,
 				C978D8B01BAEF60200F5D903 /* LaunchScreen.storyboard */,
-				C978D8B21BAEF60200F5D903 /* LoginAndRegister.storyboard */,
-				C93147451BB3E22800497DB8 /* Square.storyboard */,
-				C93147471BB3E23500497DB8 /* My.storyboard */,
+				C978D8B21BAEF60200F5D903 /* MRLoginAndRegister.storyboard */,
+				C93147451BB3E22800497DB8 /* MRSquare.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -414,11 +429,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93B71121BBBD50200A34780 /* MRMy.storyboard in Resources */,
 				C978D8BA1BAEF60200F5D903 /* LaunchScreen.storyboard in Resources */,
-				C93147461BB3E22800497DB8 /* Square.storyboard in Resources */,
+				C93147461BB3E22800497DB8 /* MRSquare.storyboard in Resources */,
 				C978D8BC1BAEF60300F5D903 /* Assets.xcassets in Resources */,
-				C93147481BB3E23500497DB8 /* My.storyboard in Resources */,
-				C978D8BB1BAEF60200F5D903 /* LoginAndRegister.storyboard in Resources */,
+				C978D8BB1BAEF60200F5D903 /* MRLoginAndRegister.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,12 +460,15 @@
 			files = (
 				C983C9CC1BAF984B00C69EA8 /* MRRegisterViewController.m in Sources */,
 				C978D8BE1BAEF60300F5D903 /* main.m in Sources */,
+				C93B71151BBBD59F00A34780 /* MRHeadImageViewController.m in Sources */,
 				C931472D1BB3DCEA00497DB8 /* MRUserModel.m in Sources */,
 				C93147441BB3E20D00497DB8 /* MRMyViewController.m in Sources */,
+				C93B71181BBBD5B400A34780 /* MRNickNameViewController.m in Sources */,
 				C93147321BB3DD2D00497DB8 /* MRLoginRequestParser.m in Sources */,
 				C931473C1BB3DD5D00497DB8 /* BLMultipartForm.m in Sources */,
 				C93147381BB3DD4E00497DB8 /* MRLoginRequest.m in Sources */,
 				C9E33DD61BAF06BB0055E8DD /* MRLoginViewController.m in Sources */,
+				C93B711B1BBBD5C100A34780 /* MRHomePageViewController.m in Sources */,
 				C93147331BB3DD2D00497DB8 /* MRRegisterRequestParser.m in Sources */,
 				C978D8B91BAEF60200F5D903 /* AppDelegate.m in Sources */,
 				C93147411BB3E1E800497DB8 /* MRSquareViewController.m in Sources */,
@@ -498,12 +516,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		C978D8B21BAEF60200F5D903 /* LoginAndRegister.storyboard */ = {
+		C978D8B21BAEF60200F5D903 /* MRLoginAndRegister.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C978D8B31BAEF60200F5D903 /* Base */,
 			);
-			name = LoginAndRegister.storyboard;
+			name = MRLoginAndRegister.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -21,20 +21,20 @@
 
 - (void)loadLoginView
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"LoginAndRegister" bundle:[NSBundle mainBundle]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MRLoginAndRegister" bundle:[NSBundle mainBundle]];
     self.loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginStoryboard"];
     self.window.rootViewController = self.loginViewController;
 }
 
 - (void)loadMainViewWithController:(UIViewController *)controller
 {
-    UIStoryboard *squareStoryboard = [UIStoryboard storyboardWithName:@"Square" bundle:[NSBundle mainBundle]];
+    UIStoryboard *squareStoryboard = [UIStoryboard storyboardWithName:@"MRSquare" bundle:[NSBundle mainBundle]];
     MRSquareViewController *squareVC = [squareStoryboard instantiateViewControllerWithIdentifier:@"SquareStoryboard"];
     squareVC.tabBarItem.title = @"广场";
     squareVC.tabBarItem.image = [UIImage imageNamed:@"square"];
     
     UIStoryboard *myStoryboard
-    = [UIStoryboard storyboardWithName:@"My" bundle:[NSBundle mainBundle]];
+    = [UIStoryboard storyboardWithName:@"MRMy" bundle:[NSBundle mainBundle]];
     MRMyViewController *myVC = [myStoryboard instantiateViewControllerWithIdentifier:@"MyStoryboard"];
     myVC.tabBarItem.title = @"我的";
     myVC.tabBarItem.image = [UIImage imageNamed:@"my"];
