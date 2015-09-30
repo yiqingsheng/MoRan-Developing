@@ -12,6 +12,8 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic, strong) UITabBarController *tabBarController;
+
 @end
 
 @implementation AppDelegate
@@ -24,7 +26,7 @@
     self.window.rootViewController = self.loginViewController;
 }
 
-- (void)loadMainView
+- (void)loadMainViewWithController:(UIViewController *)controller
 {
     UIStoryboard *squareStoryboard = [UIStoryboard storyboardWithName:@"Square" bundle:[NSBundle mainBundle]];
     MRSquareViewController *squareVC = [squareStoryboard instantiateViewControllerWithIdentifier:@"SquareStoryboard"];
@@ -37,10 +39,11 @@
     myVC.tabBarItem.title = @"我的";
     myVC.tabBarItem.image = [UIImage imageNamed:@"my"];
     
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[squareVC, myVC];
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = @[squareVC, myVC];
     
-    self.window.rootViewController = tabBarController;
+    // 登录成功后切换到tabBarController
+    [controller presentViewController:self.tabBarController animated:YES completion:nil];
     
     // 添加切换页面的动画效果
     [self.window addSubview:self.loginViewController.view];
