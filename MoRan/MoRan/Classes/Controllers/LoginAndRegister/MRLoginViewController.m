@@ -122,7 +122,7 @@
 - (void)loginRequestSuccess:(MRLoginRequest *)request user:(MRUserModel *)user
 {
     if ([user.loginReturnMessage isEqualToString:@"Login success"]) {
-        NSLog(@"登录成功，现在转换页面");
+        // NSLog(@"登录成功，现在转换页面");
         AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
         [appDelegate loadMainViewWithController:self];
     } else {

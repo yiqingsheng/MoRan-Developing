@@ -2,36 +2,51 @@
 //  MRSquareViewController.m
 //  MoRan
 //
-//  Created by yikobe_mac on 15/9/24.
+//  Created by yikobe_mac on 15/10/7.
 //  Copyright © 2015年 yikobe. All rights reserved.
 //
 
 #import "MRSquareViewController.h"
+#import "MRSquareCell.h"
 
-@interface MRSquareViewController ()
+@interface MRSquareViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
 @implementation MRSquareViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - table view data source methods
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 2;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    MRSquareCell *cell = [tableView dequeueReusableCellWithIdentifier:@"squareCell" forIndexPath:indexPath];
+    if (!cell) {
+        cell = [[MRSquareCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"squareCell"];
+    }
+    cell.locationLabel.text = @"我的位置";
+    [cell.collectionView reloadData];
+    
+    return cell;
+}
+
+
 
 @end

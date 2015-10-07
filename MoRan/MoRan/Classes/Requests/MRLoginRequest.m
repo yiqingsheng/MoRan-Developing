@@ -65,7 +65,7 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
     NSString *string = [[NSString alloc] initWithData:self.receivedData encoding:NSUTF8StringEncoding];
-    NSLog(@"receive data string:%@", string);
+    // NSLog(@"receive data string:%@", string);
     
     MRLoginRequestParser *parser = [[MRLoginRequestParser alloc] init];
     MRUserModel *user = [parser parseJson:self.receivedData];

@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9277DF41BC4FD3E0084B38E /* MRSquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9277DF31BC4FD3E0084B38E /* MRSquare.storyboard */; settings = {ASSET_TAGS = (); }; };
+		C9277DF71BC4FD840084B38E /* MRSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277DF61BC4FD840084B38E /* MRSquareViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C9277DFA1BC4FF620084B38E /* MRSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277DF91BC4FF620084B38E /* MRSquareCell.m */; settings = {ASSET_TAGS = (); }; };
+		C9277DFD1BC5060D0084B38E /* MRSquareCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9277DFC1BC5060D0084B38E /* MRSquareCollectionCell.m */; settings = {ASSET_TAGS = (); }; };
 		C931472D1BB3DCEA00497DB8 /* MRUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C931472C1BB3DCEA00497DB8 /* MRUserModel.m */; settings = {ASSET_TAGS = (); }; };
 		C93147321BB3DD2D00497DB8 /* MRLoginRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C931472E1BB3DD2D00497DB8 /* MRLoginRequestParser.m */; settings = {ASSET_TAGS = (); }; };
 		C93147331BB3DD2D00497DB8 /* MRRegisterRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147311BB3DD2D00497DB8 /* MRRegisterRequestParser.m */; settings = {ASSET_TAGS = (); }; };
 		C93147381BB3DD4E00497DB8 /* MRLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147351BB3DD4E00497DB8 /* MRLoginRequest.m */; settings = {ASSET_TAGS = (); }; };
 		C93147391BB3DD4E00497DB8 /* MRRegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147371BB3DD4E00497DB8 /* MRRegisterRequest.m */; settings = {ASSET_TAGS = (); }; };
 		C931473C1BB3DD5D00497DB8 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C931473B1BB3DD5D00497DB8 /* BLMultipartForm.m */; settings = {ASSET_TAGS = (); }; };
-		C93147411BB3E1E800497DB8 /* MRSquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147401BB3E1E800497DB8 /* MRSquareViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C93147441BB3E20D00497DB8 /* MRMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93147431BB3E20D00497DB8 /* MRMyViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C93147461BB3E22800497DB8 /* MRSquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93147451BB3E22800497DB8 /* MRSquare.storyboard */; settings = {ASSET_TAGS = (); }; };
 		C93B71121BBBD50200A34780 /* MRMy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93B71111BBBD50200A34780 /* MRMy.storyboard */; settings = {ASSET_TAGS = (); }; };
 		C93B71151BBBD59F00A34780 /* MRHeadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B71141BBBD59F00A34780 /* MRHeadImageViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C93B71181BBBD5B400A34780 /* MRNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B71171BBBD5B400A34780 /* MRNickNameViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -49,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9277DF31BC4FD3E0084B38E /* MRSquare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRSquare.storyboard; sourceTree = "<group>"; };
+		C9277DF51BC4FD840084B38E /* MRSquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRSquareViewController.h; path = Square/MRSquareViewController.h; sourceTree = "<group>"; };
+		C9277DF61BC4FD840084B38E /* MRSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRSquareViewController.m; path = Square/MRSquareViewController.m; sourceTree = "<group>"; };
+		C9277DF81BC4FF620084B38E /* MRSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSquareCell.h; sourceTree = "<group>"; };
+		C9277DF91BC4FF620084B38E /* MRSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSquareCell.m; sourceTree = "<group>"; };
+		C9277DFB1BC5060D0084B38E /* MRSquareCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSquareCollectionCell.h; sourceTree = "<group>"; };
+		C9277DFC1BC5060D0084B38E /* MRSquareCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSquareCollectionCell.m; sourceTree = "<group>"; };
 		C931472B1BB3DCEA00497DB8 /* MRUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRUserModel.h; sourceTree = "<group>"; };
 		C931472C1BB3DCEA00497DB8 /* MRUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRUserModel.m; sourceTree = "<group>"; };
 		C931472E1BB3DD2D00497DB8 /* MRLoginRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRLoginRequestParser.m; sourceTree = "<group>"; };
@@ -61,11 +70,8 @@
 		C93147371BB3DD4E00497DB8 /* MRRegisterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRRegisterRequest.m; sourceTree = "<group>"; };
 		C931473A1BB3DD5D00497DB8 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
 		C931473B1BB3DD5D00497DB8 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
-		C931473F1BB3E1E800497DB8 /* MRSquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRSquareViewController.h; path = Square/MRSquareViewController.h; sourceTree = "<group>"; };
-		C93147401BB3E1E800497DB8 /* MRSquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRSquareViewController.m; path = Square/MRSquareViewController.m; sourceTree = "<group>"; };
 		C93147421BB3E20D00497DB8 /* MRMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRMyViewController.h; path = My/MRMyViewController.h; sourceTree = "<group>"; };
 		C93147431BB3E20D00497DB8 /* MRMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRMyViewController.m; path = My/MRMyViewController.m; sourceTree = "<group>"; };
-		C93147451BB3E22800497DB8 /* MRSquare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRSquare.storyboard; sourceTree = "<group>"; };
 		C93B71111BBBD50200A34780 /* MRMy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRMy.storyboard; sourceTree = "<group>"; };
 		C93B71131BBBD59F00A34780 /* MRHeadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MRHeadImageViewController.h; path = My/MRHeadImageViewController.h; sourceTree = "<group>"; };
 		C93B71141BBBD59F00A34780 /* MRHeadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MRHeadImageViewController.m; path = My/MRHeadImageViewController.m; sourceTree = "<group>"; };
@@ -130,8 +136,8 @@
 		C931473D1BB3E14E00497DB8 /* Square */ = {
 			isa = PBXGroup;
 			children = (
-				C931473F1BB3E1E800497DB8 /* MRSquareViewController.h */,
-				C93147401BB3E1E800497DB8 /* MRSquareViewController.m */,
+				C9277DF51BC4FD840084B38E /* MRSquareViewController.h */,
+				C9277DF61BC4FD840084B38E /* MRSquareViewController.m */,
 			);
 			name = Square;
 			sourceTree = "<group>";
@@ -293,7 +299,11 @@
 				C93B71111BBBD50200A34780 /* MRMy.storyboard */,
 				C978D8B01BAEF60200F5D903 /* LaunchScreen.storyboard */,
 				C978D8B21BAEF60200F5D903 /* MRLoginAndRegister.storyboard */,
-				C93147451BB3E22800497DB8 /* MRSquare.storyboard */,
+				C9277DF31BC4FD3E0084B38E /* MRSquare.storyboard */,
+				C9277DF81BC4FF620084B38E /* MRSquareCell.h */,
+				C9277DF91BC4FF620084B38E /* MRSquareCell.m */,
+				C9277DFB1BC5060D0084B38E /* MRSquareCollectionCell.h */,
+				C9277DFC1BC5060D0084B38E /* MRSquareCollectionCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -431,9 +441,9 @@
 			files = (
 				C93B71121BBBD50200A34780 /* MRMy.storyboard in Resources */,
 				C978D8BA1BAEF60200F5D903 /* LaunchScreen.storyboard in Resources */,
-				C93147461BB3E22800497DB8 /* MRSquare.storyboard in Resources */,
 				C978D8BC1BAEF60300F5D903 /* Assets.xcassets in Resources */,
 				C978D8BB1BAEF60200F5D903 /* MRLoginAndRegister.storyboard in Resources */,
+				C9277DF41BC4FD3E0084B38E /* MRSquare.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,20 +468,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9277DF71BC4FD840084B38E /* MRSquareViewController.m in Sources */,
 				C983C9CC1BAF984B00C69EA8 /* MRRegisterViewController.m in Sources */,
 				C978D8BE1BAEF60300F5D903 /* main.m in Sources */,
 				C93B71151BBBD59F00A34780 /* MRHeadImageViewController.m in Sources */,
 				C931472D1BB3DCEA00497DB8 /* MRUserModel.m in Sources */,
 				C93147441BB3E20D00497DB8 /* MRMyViewController.m in Sources */,
+				C9277DFD1BC5060D0084B38E /* MRSquareCollectionCell.m in Sources */,
 				C93B71181BBBD5B400A34780 /* MRNickNameViewController.m in Sources */,
 				C93147321BB3DD2D00497DB8 /* MRLoginRequestParser.m in Sources */,
 				C931473C1BB3DD5D00497DB8 /* BLMultipartForm.m in Sources */,
+				C9277DFA1BC4FF620084B38E /* MRSquareCell.m in Sources */,
 				C93147381BB3DD4E00497DB8 /* MRLoginRequest.m in Sources */,
 				C9E33DD61BAF06BB0055E8DD /* MRLoginViewController.m in Sources */,
 				C93B711B1BBBD5C100A34780 /* MRHomePageViewController.m in Sources */,
 				C93147331BB3DD2D00497DB8 /* MRRegisterRequestParser.m in Sources */,
 				C978D8B91BAEF60200F5D903 /* AppDelegate.m in Sources */,
-				C93147411BB3E1E800497DB8 /* MRSquareViewController.m in Sources */,
 				C93147391BB3DD4E00497DB8 /* MRRegisterRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
