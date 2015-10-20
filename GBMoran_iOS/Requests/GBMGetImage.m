@@ -2,16 +2,10 @@
 //  GBMGetImage.m
 //  GBMoran_iOS
 //
-//  Created by ZHY on 15/10/16.
+//  Created by yikobe_mac on 15/10/16.
 //  Copyright © 2015年 Brave. All rights reserved.
 //
-//
-//  GBMLoginRequest.m
-//  GBMoran_iOS
-//
-//  Created by yikobe_mac on 15/9/21.
-//  Copyright © 2015年 Brave. All rights reserved.
-//
+
 #import <UIKit/UIKit.h>
 #import "GBMGlobal.h"
 #import "GBMGetImage.h"

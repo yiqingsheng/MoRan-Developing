@@ -2,7 +2,7 @@
 //  GBGlobal.m
 //  GBMoran_iOS
 //
-//  Created by 陈铭嘉 on 15/9/24.
+//  Created by yikobe_mac on 15/9/24.
 //  Copyright © 2015年 Brave. All rights reserved.
 //
 

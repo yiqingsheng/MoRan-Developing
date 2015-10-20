@@ -2,7 +2,7 @@
 //  GBMViewDetailViewController.m
 //  GBMoran_iOS
 //
-//  Created by ZHY on 15/10/2.
+//  Created by yikobe_mac on 15/10/2.
 //  Copyright © 2015年 Brave. All rights reserved.
 //
 

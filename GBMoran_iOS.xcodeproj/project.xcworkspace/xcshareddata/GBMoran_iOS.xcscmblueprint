@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E00E793759E85FB040828A58862A5345E6FFADBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E00E793759E85FB040828A58862A5345E6FFADBE" : 0,
+    "145AA5BB794A1AADCD5864C46AA7E3447E06E229" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A4E4CE3-9432-4A15-B6C8-93A2AA13A17D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E00E793759E85FB040828A58862A5345E6FFADBE" : "MoRan-Developing\/",
+    "145AA5BB794A1AADCD5864C46AA7E3447E06E229" : "GBMoran_iOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GBMoran_iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GBMoran_iOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GeekBand\/GBMoran_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "145AA5BB794A1AADCD5864C46AA7E3447E06E229"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yiqingsheng\/MoRan-Developing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E00E793759E85FB040828A58862A5345E6FFADBE"
+    }
+  ]
+}

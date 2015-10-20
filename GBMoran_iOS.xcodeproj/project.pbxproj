@@ -720,13 +720,13 @@
 			path = User;
 			sourceTree = "<group>";
 		};
-		E987E98A1BAFA57100D4A039 /* APP */ = {
+		E987E98A1BAFA57100D4A039 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				E9F17DC81BAF93B700C2948B /* AppDelegate.h */,
 				E9F17DC91BAF93B700C2948B /* AppDelegate.m */,
 			);
-			name = APP;
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 		E987E98B1BAFA58200D4A039 /* Resources */ = {
@@ -812,7 +812,7 @@
 		E9F17DC31BAF93B700C2948B /* GBMoran_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E987E98A1BAFA57100D4A039 /* APP */,
+				E987E98A1BAFA57100D4A039 /* AppDelegate */,
 				E987E9801BAFA53900D4A039 /* Controllers */,
 				DFEB0BEF1BB773AF0023543B /* Global */,
 				E91353AD1BC53BC8002DE9B3 /* Library */,

@@ -2,14 +2,12 @@
 //  GBMSquareCell.h
 //  GBMoran_iOS
 //
-//  Created by 柴勇峰 on 8/11/15.
+//  Created by yikobe_mac on 8/11/15.
 //  Copyright (c) 2015 Brave. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "GBMSquareViewController.h"
-//#import "GBMCheckPictureViewController.h"
-
 
 @interface GBMSquareCell : UITableViewCell<UICollectionViewDelegate, UICollectionViewDataSource>
 @property (nonatomic, strong) GBMSquareViewController *squareVC;

@@ -1,8 +1,8 @@
 //
 //  CMJPublishViewController.m
-//  蓦然
+//  GBMoran_iOS
 //
-//  Created by 陈铭嘉 on 15/9/21.
+//  Created by yikobe_mac on 15/9/21.
 //  Copyright © 2015年 com.GeekBand. All rights reserved.
 //
 
