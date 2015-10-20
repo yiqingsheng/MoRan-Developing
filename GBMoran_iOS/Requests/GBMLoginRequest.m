@@ -31,9 +31,7 @@
     request.HTTPMethod = @"POST";
     request.timeoutInterval = 60;
     request.cachePolicy = NSURLRequestReloadIgnoringLocalAndRemoteCacheData; // 忽略本地和远程的缓存
-    
-    //    NSData *data1 = [request HTTPBody];
-    
+        
     BLMultipartForm *form = [[BLMultipartForm alloc] init];
     [form addValue:email forField:@"email"];
     [form addValue:password forField:@"password"];

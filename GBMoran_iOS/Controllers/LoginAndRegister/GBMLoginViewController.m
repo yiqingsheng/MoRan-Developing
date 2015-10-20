@@ -50,7 +50,7 @@
 }
 
 // 读取本地化的数据
--(void)readInformation{
+- (void)readInformation{
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     myEmail = [defaults stringForKey:@"email"];
@@ -184,8 +184,6 @@
         [defaults setObject:self.passwordTextField.text forKey:@"password"];
         [defaults synchronize];
         
-        
-
     } else {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
                                                         message:user.loginReturnMessage

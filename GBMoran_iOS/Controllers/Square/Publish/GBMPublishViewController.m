@@ -319,7 +319,7 @@
 }
 
 
-#pragma mark ------tableView的delegate
+#pragma mark - TableView delegate
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -364,17 +364,9 @@
     if (textView.text.length < 1) {
         textView.text = @"你想说的话";
     }
-    //    CGRect textViewRect  = self.textView.frame;
-    //    if (keyboardOpen == YES) {
-    //        [UIView animateWithDuration:1 animations:^{
-    //            [self.textView setFrame:CGRectMake(textViewRect.origin.x, textViewRect.origin.y + keyboardOffSet, textViewRect.size.width, textViewRect.size.height)];
-    //        }];
-    //        keyboardOpen = NO;
-    //    }
-    
 }
 
-#pragma mark ---弹出键盘时适应
+#pragma mark - 弹出键盘时适应
 
 - (void)keyboardWillChangeFrame:(NSNotification *)notification
 {
@@ -410,10 +402,10 @@
 
 
 
-#pragma mark ----发布照片事件
+#pragma mark - 发布照片事件
 
-- (void)publishPhotoButtonClicked:(id)sender{
-    
+- (void)publishPhotoButtonClicked:(id)sender
+{
     NSData *data = UIImageJPEGRepresentation(self.pulishview.image, 0.00001);
     GBMPublishRequest *request = [[GBMPublishRequest alloc]init];
     GBMUserModel *user = [GBMGlobal shareGloabl].user;
@@ -449,7 +441,7 @@
     
 }
 
-#pragma mark ---制作返回按钮
+#pragma mark - 制作返回按钮
 
 - (void)MakeBackButton{
   
