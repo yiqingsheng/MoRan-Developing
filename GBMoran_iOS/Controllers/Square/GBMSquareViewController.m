@@ -125,7 +125,7 @@
     AMapReGeocodeSearchRequest * request = [[AMapReGeocodeSearchRequest alloc] init];
     request.requireExtension = YES;
     request.radius = 10000;
-    AMapGeoPoint * point = [AMapGeoPoint locationWithLatitude:location.coordinate.latitude longitude:location.coordinate.longitude];
+    AMapGeoPoint *point = [AMapGeoPoint locationWithLatitude:location.coordinate.latitude longitude:location.coordinate.longitude];
     request.location = point;
     [self.mapSearchAPI AMapReGoecodeSearch:request];
 }
@@ -208,7 +208,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"addrArray: %zd", self.addrArray.count);
+    NSLog(@"广场数组打印:addrArray: %zd", self.addrArray.count);
     return self.addrArray.count;
 }
 
@@ -231,7 +231,8 @@
 {
     GBMViewDetailViewController *detailVC = VCFromSB(@"GBMViewDetail", @"detailVC");
     [detailVC.PhotoImage sd_setImageWithURL:[NSURL URLWithString:_pic_url]];
-    detailVC.pic_id=_pic_id;
+    detailVC.pic_id = _pic_id;
+    detailVC.pic_url = _pic_url;
     [self.navigationController pushViewController:detailVC animated:YES];
     
 }

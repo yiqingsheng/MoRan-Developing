@@ -49,30 +49,16 @@
     self.passwordTextField.delegate = self;
 }
 
-// 读取本地化的数据
+// 读取本地的账号密码
 - (void)readInformation{
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     myEmail = [defaults stringForKey:@"email"];
     myPassword = [defaults stringForKey:@"password"];
     
-    if (myEmail){
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-                                                    message:@"是否使用本地邮箱密码"
-                                                   delegate:self
-                                          cancelButtonTitle:@"取消"
-                                          otherButtonTitles:@"确定", nil];
-        
-    [alert show];
-    }
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex == 1) {
-        self.emailTextField.text = myEmail;
-        self.passwordTextField.text = myPassword;
-    }
+    self.emailTextField.text = myEmail;
+    self.passwordTextField.text = myPassword;
+    
 }
 
 - (void)didReceiveMemoryWarning

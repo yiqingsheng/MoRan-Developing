@@ -7,6 +7,7 @@
 //
 
 #import "GBMViewDetailRequest.h"
+#import "GBMViewDetailParser.h"
 
 @implementation GBMViewDetailRequest
 
@@ -17,7 +18,8 @@
     
     self.delegate = delegate;
     
-    NSString *urlString = [NSString stringWithFormat:@"http://moran.chinacloudapp.cn/moran/web//picture/read?pic_id=%@&token=%@&user_id=%@",paramDic[@"pic_id"], paramDic[@"token"], paramDic[@"user_id"]];
+//    NSString *urlString = [NSString stringWithFormat:@"http://moran.chinacloudapp.cn/moran/web//picture/read?pic_id=%@&token=%@&user_id=%@",paramDic[@"pic_id"], paramDic[@"token"], paramDic[@"user_id"]];
+    NSString *urlString = [NSString stringWithFormat:@"http://moran.chinacloudapp.cn/moran/web/comment?user_id=%@&token=%@&pic_id=%@",paramDic[@"user_id"], paramDic[@"token"], paramDic[@"pic_id"]];
     // POST请求
     NSString *encodeURLString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
@@ -49,13 +51,15 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-//    NSString *string = [[NSString alloc] initWithData:self.receivedData encoding:NSUTF8StringEncoding];
-//    NSLog(@"ViewDetail receive data string:%@", string);
-//    
-    //    GBMSquareRequestParser *parser = [[GBMSquareRequestParser alloc] init];
-        if ([_delegate respondsToSelector:@selector(viewDetailRequestSuccess:data:)]) {
-            [_delegate viewDetailRequestSuccess:self data:self.receivedData];
-        }
+    NSString *string = [[NSString alloc] initWithData:self.receivedData encoding:NSUTF8StringEncoding];
+    NSLog(@"ViewDetail receive data string:%@", string);
+    
+    GBMViewDetailParser *parser = [[GBMViewDetailParser alloc] init];
+    NSArray *array = [parser parseJson:self.receivedData];
+
+    if ([_delegate respondsToSelector:@selector(viewDetailRequestSuccess:data:)]) {
+        [_delegate viewDetailRequestSuccess:self data:array];
+    }
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
